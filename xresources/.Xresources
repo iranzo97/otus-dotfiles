@@ -1,0 +1,98 @@
+! xterm
+! font
+xterm*faceName: Terminus
+xterm*faceSize: 9
+
+! special
+xterm*foreground:   rgb:ff/ff/ff
+xterm*background:   rgb:1b/1b/1b
+xterm*cursorColor:  rgb:0d/8f/8f
+
+! black
+xterm*color0:       rgb:3d/3d/3d
+xterm*color8:       rgb:4d/4d/4d
+
+! red
+xterm*color1:       rgb:d3/2f/2f
+xterm*color9:       rgb:ef/53/50
+
+! green
+xterm*color2:       rgb:37/d3/2f
+xterm*color10:      rgb:70/ef/50
+
+! yellow
+xterm*color3:       rgb:d3/b6/2f
+xterm*color11:      rgb:ef/c0/50
+
+! blue
+xterm*color4:       rgb:0d/48/8f
+xterm*color12:      rgb:42/63/ac
+
+! magenta
+xterm*color5:       rgb:8f/0d/61
+xterm*color13:      rgb:ac4/2/81
+
+! cyan
+xterm*color6:       rgb:0d/8f/8f
+xterm*color14:      rgb:42/aa/ac
+
+! white
+xterm*color7:       rgb:88/88/88
+xterm*color15:      rgb:d5/d5/d5
+!----------------------------------------------
+! urxvt
+! font
+URxvt.font: xft:Terminus:size=9
+
+! special
+URxvt.foreground:   rgb:ff/ff/ff
+URxvt.background:   rgb:1b/1b/1b
+URxvt.cursorColor:  rgb:82/a5/42
+
+! black
+URxvt.color0:       rgb:1b/1b/1b
+URxvt.color8:       rgb:37/3b/41
+
+! red
+URxvt.color1:       rgb:9e/a5/42
+URxvt.color9:       rgb:a5/aa/5e
+
+! green
+URxvt.color2:       rgb:82/a5/42
+URxvt.color10:      rgb:8c/a7/5a
+
+! yellow
+URxvt.color3:       rgb:49/a5/42
+URxvt.color11:      rgb:5a/aa/53
+
+! blue
+URxvt.color4:       rgb:42/a5/5d
+URxvt.color12:      rgb:58/ae/6e
+
+! magenta
+URxvt.color5:       rgb:42/a5/8d
+URxvt.color13:      rgb:59/a8/95
+
+! cyan
+URxvt.color6:       rgb:42/89/a5
+URxvt.color14:      rgb:58/92/a9
+
+! white
+URxvt.color7:       rgb:88/88/88
+URxvt.color15:      rgb:d5/d5/d5
+
+! scrollbar
+URxvt*scrollBar:        false
+
+! transparency
+URxvt.transparent:	true
+URxvt.shading:		20
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: argb:9b000000, #82a542, #82a542
+rofi.color-normal: argb:0000000, #82a542, argb:00000000, #82a542, #ffffff
+rofi.color-active: argb:0000000, #42a55d, argb:00000000, #42a55d, #ffffff
+rofi.color-urgent: argb:0000000, #42a58d, argb:00000000, #42a58d, #ffffff
