@@ -30,6 +30,8 @@ Font used for the polybar icons:
 **Oh-my-zsh**
 > https://github.com/robbyrussell/oh-my-zsh
 
+**Feh** as wallpaper setter and **cmus** as music player
+
 ## Wallpaper
 
 ![alt-text](http://orig11.deviantart.net/64b3/f/2015/294/5/4/watchmaker_house_by_arsenixc-d9dv2ge.jpg)

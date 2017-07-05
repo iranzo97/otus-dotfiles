@@ -175,5 +175,6 @@ bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 1+ unmute"
 bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 1- unmute"
 bindsym XF86AudioMute exec "amixer -q sset Master,0 toggle"
 
-#lock
+# lock
+# this script is located at otus-dotfiles/lock/lock.sh
 bindsym $mod+p exec "/home/pilonsi/.lock/lock.sh"
