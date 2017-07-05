@@ -1,45 +1,3 @@
-! xterm
-! font
-xterm*faceName: Terminus
-xterm*faceSize: 9
-
-! special
-xterm*foreground:   rgb:ff/ff/ff
-xterm*background:   rgb:1b/1b/1b
-xterm*cursorColor:  rgb:0d/8f/8f
-
-! black
-xterm*color0:       rgb:3d/3d/3d
-xterm*color8:       rgb:4d/4d/4d
-
-! red
-xterm*color1:       rgb:d3/2f/2f
-xterm*color9:       rgb:ef/53/50
-
-! green
-xterm*color2:       rgb:37/d3/2f
-xterm*color10:      rgb:70/ef/50
-
-! yellow
-xterm*color3:       rgb:d3/b6/2f
-xterm*color11:      rgb:ef/c0/50
-
-! blue
-xterm*color4:       rgb:0d/48/8f
-xterm*color12:      rgb:42/63/ac
-
-! magenta
-xterm*color5:       rgb:8f/0d/61
-xterm*color13:      rgb:ac4/2/81
-
-! cyan
-xterm*color6:       rgb:0d/8f/8f
-xterm*color14:      rgb:42/aa/ac
-
-! white
-xterm*color7:       rgb:88/88/88
-xterm*color15:      rgb:d5/d5/d5
-!----------------------------------------------
 ! urxvt
 ! font
 URxvt.font: xft:Terminus:size=9
@@ -92,7 +50,7 @@ URxvt.shading:		20
 ! ROFI Color theme
 ! ------------------------------------------------------------------------------
 rofi.color-enabled: true
-rofi.color-window: argb:9b000000, #82a542, #82a542
+rofi.color-window: argb:80000000, #82a542, #82a542
 rofi.color-normal: argb:0000000, #82a542, argb:00000000, #82a542, #ffffff
 rofi.color-active: argb:0000000, #42a55d, argb:00000000, #42a55d, #ffffff
 rofi.color-urgent: argb:0000000, #42a58d, argb:00000000, #42a58d, #ffffff
