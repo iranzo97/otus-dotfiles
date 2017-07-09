@@ -155,11 +155,8 @@ for_window [class="^.*"] border pixel 1
 gaps inner 15
 gaps outer 5
 
-#set dpi
-exec "xrandr --dpi 95"
-
 # wallpaper
-#exec "feh --bg-scale /home/pilonsi/Pictures/wallpaper/wallpaper.png"
+exec "feh --bg-scale /home/pilonsi/Pictures/wallpaper/wallpaper.png"
 
 # bar
 exec "polybar pilobar"
@@ -168,24 +165,16 @@ exec "polybar pilobar"
 exec "compton -bcCG"
 
 # colors (border background text)
-set_from_resource $c3 i3wm.color3
-set_from_resource $c0 i3wm.color0
-set_from_resource $c9 i3wm.color9
-set_from_resource $c6 i3wm.color6
-
-client.focused $c3 $c3 $c3 $c3 $c3
-client.unfocused $c0 $c0 $c0 $c0 $c0 
-client.focused_inactive $c9 $c9 $c9 $c9 $c9
-client.urgent $c6 $c6 $c6 $c6 $c6
+client.focused #49a542 #49a542 #49a542 #49a542
+#client.unfocused #020202 #020202 #020202 #020202
+client.focused_inactive #a5aa5e #a5aa5e #a5aa5e #a5aa5e
+client.urgent #4289a5 #4289a5 #4289a5 #4289a5
 
 # media keys
 bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 1+ unmute"
 bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 1- unmute"
 bindsym XF86AudioMute exec "amixer -q sset Master,0 toggle"
 
-#lock
-bindsym $mod+p exec "/home/pilonsi/.i3scripts/lock.sh"
-
-#change wallpaper
-bindsym $mod+Shift+p exec "/home/pilonsi/.i3scripts/colors.sh"
-
+# lock
+# this script is located at otus-dotfiles/lock/lock.sh
+bindsym $mod+p exec "/home/pilonsi/.lock/lock.sh"

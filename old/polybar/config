@@ -12,22 +12,6 @@ background = #1b1b1b
 foreground = #ffffff
 background-alt = #444
 foreground-alt = #555
-color0 = ${xrdb:color0}
-color1 = ${xrdb:color1}
-color2 = ${xrdb:color2}
-color3 = ${xrdb:color3}
-color4 = ${xrdb:color4}
-color5 = ${xrdb:color5}
-color6 = ${xrdb:color6}
-color7 = ${xrdb:color7}
-color8 = ${xrdb:color8}
-color9 = ${xrdb:color9}
-color10 = ${xrdb:color10}
-color11 = ${xrdb:color11}
-color12 = ${xrdb:color12}
-color13 = ${xrdb:color13}
-color14 = ${xrdb:color14}
-color15 = ${xrdb:color15}
 
 [bar/pilobar]
 width = 100%
@@ -39,10 +23,10 @@ background = ${colors.background}
 foreground = ${colors.foreground}
 
 overline-size = 1
-overline-color = ${colors.color1}
+overline-color = #9ea542
 
 border-bottom-size = 1
-border-bottom-color = ${colors.color3}
+border-bottom-color = #49a542
 
 padding-left = 0
 padding-right = 2
@@ -81,15 +65,15 @@ blacklist-0 = num lock
 
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-prefix-overline = ${colors.color2}
+format-prefix-overline = #82a542
 
 label-layout = %layout%
-label-layout-overline = ${colors.color2}
+label-layout-overline = #82a542
 
 label-indicator-padding = 2
 label-indicator-margin = 1
-label-indicator-background = ${colors.color2}
-label-indicator-overline = ${colors.color2}
+label-indicator-background = #82a542
+label-indicator-overline = #82a542
 
 [module/filesystem]
 type = internal/fs
@@ -103,22 +87,21 @@ label-mounted = %{F#555}%mountpoint%%{F-}: %percentage_used%%
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
-label-mounted-overline = ${colors.color11}
-label-unmounted-overline = ${colors.color13}
+format-underline = #49a542
 
 [module/bspwm]
 type = internal/bspwm
 
 label-focused = %index%
 label-focused-background = ${colors.background-alt}
-label-focused-overline= ${colors.color1}
+label-focused-overline= #9ea542
 label-focused-padding = 2
 
 label-occupied = %index%
 label-occupied-padding = 2
 
 label-urgent = %index%!
-label-urgent-background = ${colors.color6}
+label-urgent-background = #4289a5
 label-urgent-padding = 2
 
 label-empty = %index%
@@ -137,7 +120,7 @@ wrapping-scroll = false
 
 label-mode-padding = 2
 label-mode-foreground = #000
-label-mode-background = ${colors.color3}
+label-mode-background = #49a542
 
 ; focused = Active workspace on focused monitor
 label-focused = %index%
@@ -185,7 +168,7 @@ bar-indicator-foreground = #ff
 bar-indicator-font = 2
 bar-fill = ─
 bar-fill-font = 2
-bar-fill-foreground = ${colors.color13}
+bar-fill-foreground = #59a895
 bar-empty = ─
 bar-empty-font = 2
 bar-empty-foreground = ${colors.foreground-alt}
@@ -200,7 +183,7 @@ type = internal/cpu
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-overline = ${colors.color1}
+format-overline = #9ea542
 label = %percentage%%
 
 [module/memory]
@@ -208,7 +191,7 @@ type = internal/memory
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-overline = ${colors.color10}
+format-overline = #8ca75a
 label = %percentage_used%%
 
 [module/wlan]
@@ -217,7 +200,7 @@ interface = wlp2s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
-format-connected-overline = ${colors.color5}
+format-connected-overline = #42a58d
 label-connected = %essid%
 
 format-disconnected = <label-disconnected>
@@ -237,7 +220,7 @@ type = internal/network
 interface = enp3s0
 interval = 3.0
 
-format-connected-overline = ${colors.color13}
+format-connected-overline = #59a895
 format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%
@@ -259,7 +242,7 @@ time-alt = %H:%M:%S
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-overline = ${colors.color9}
+format-overline = #a5aa5e
 
 label = %date% %time%
 
@@ -271,15 +254,15 @@ mapping = false
 format-volume = <label-volume><ramp-volume>
 label-volume = " "
 label-volume-foreground = ${colors.foreground-alt}
-label-volume-overline = ${colors.color12}
+label-volume-overline = #58ae6e
 
 format-muted-prefix = " "
 format-muted-foreground = ${colors.foreground-alt}
-format-muted-overline = ${colors.color12}
+format-muted-overline = #58ae6e
 label-muted = sound muted
-label-muted-overline = ${colors.color12}
+label-muted-overline = #58ae6e
 
-ramp-volume-overline = ${colors.color12}
+ramp-volume-overline = #58ae6e
 ramp-volume-0 = "-93.75 dB"
 ramp-volume-1 = "-91.50 dB"
 ramp-volume-2 = "-90.00 dB"
@@ -335,7 +318,7 @@ adapter = ADP0
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
-format-charging-overline = ${colors.color4}
+format-charging-overline = #42a55d
 
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-overline = #ffb52a
@@ -361,7 +344,7 @@ thermal-zone = 0
 warn-temperature = 80
 
 format = <ramp> <label>
-format-overline = ${colors.color12}
+format-overline = #58ae6e
 format-warn = <ramp> <label-warn>
 format-warn-overline = #f50a4d
 
@@ -380,9 +363,9 @@ type = custom/menu
 format-spacing = 1
 
 label-open = 
-label-open-foreground = ${colors.color2}
+label-open-foreground = #82a542
 label-close =  cancel
-label-close-foreground = ${colors.color2}
+label-close-foreground = #82a542
 label-separator = |
 label-separator-foreground = ${colors.foreground-alt}
 
