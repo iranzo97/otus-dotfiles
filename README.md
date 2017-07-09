@@ -1,6 +1,6 @@
 # My personal laptop dotfiles
 
-## Update
+### Update
 
 Now color theme changes accordingly to the current wallpaper which is chosen randomly at boot and can be changed manually with a custom keybind
 
