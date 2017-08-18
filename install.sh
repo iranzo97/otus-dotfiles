@@ -9,6 +9,7 @@ cp oh-my-zsh/pilonsi.zsh-theme ~/.oh-my-zsh/themes/
 mkdir ~/.config/cmus
 cp cmus/pilonsi.theme ~/.config/cmus/
 cp zsh/zshrc ~/.zshrc
+cp zsh/zprofile ~/.zprofile
 cp xresources/.Xresources ~/
 cp xsession/.xsession ~/
 echo "Done! We recommend to double check the script launchers such as .xsession or the i3 config file before starting i3. Enjoy :)"
