@@ -4,13 +4,13 @@
 
 Now color theme changes accordingly to the current wallpaper which is chosen randomly at boot and can be changed manually with a custom keybind
 
-![alt-text](https://github.com/Pilonsi/otus-dotfiles/blob/master/2017-07-10-005946_1920x1080_scrot.png)
+![alt-text](https://github.com/Pilonsi/otus-dotfiles/blob/master/screenshots/2017-07-10-005946_1920x1080_scrot.png)
 
-![alt-text](https://github.com/Pilonsi/otus-dotfiles/blob/master/2017-07-10-010007_1920x1080_scrot.png)
+![alt-text](https://github.com/Pilonsi/otus-dotfiles/blob/master/screenshots/2017-07-10-010007_1920x1080_scrot.png)
 
-![alt-text](https://github.com/Pilonsi/otus-dotfiles/blob/master/2017-07-10-010024_1920x1080_scrot.png)
+![alt-text](https://github.com/Pilonsi/otus-dotfiles/blob/master/screenshots/2017-07-10-010024_1920x1080_scrot.png)
 
-![alt-text](https://github.com/Pilonsi/otus-dotfiles/blob/master/2017-07-10-010036_1920x1080_scrot.png)
+![alt-text](https://github.com/Pilonsi/otus-dotfiles/blob/master/screenshots/2017-07-10-010036_1920x1080_scrot.png)
 
 ## Programs used
 
@@ -43,11 +43,11 @@ Font used for the polybar icons:
 
 ## Old setup
 
-![alt-text](https://github.com/Pilonsi/otus-dotfiles/blob/master/2017-06-28-180514_1920x1080_scrot.png)
+![alt-text](https://github.com/Pilonsi/otus-dotfiles/blob/master/screenshots/2017-06-28-180514_1920x1080_scrot.png)
 
-![alt-text](https://github.com/Pilonsi/otus-dotfiles/blob/master/2017-07-01-164921_1920x1080_scrot.png)
+![alt-text](https://github.com/Pilonsi/otus-dotfiles/blob/master/screenshots/2017-07-01-164921_1920x1080_scrot.png)
 
-![alt-text](https://github.com/Pilonsi/otus-dotfiles/blob/master/2017-07-01-165056_1920x1080_scrot.png)
+![alt-text](https://github.com/Pilonsi/otus-dotfiles/blob/master/screenshots/2017-07-01-165056_1920x1080_scrot.png)
 
 
 ### Wallpaper
