@@ -21,30 +21,25 @@ echo "[WARNING] Currently UNTESTED. Install at your own risk"
 echo ""
 echo "You will be asked for your root password"
 echo ""
-read -p "Do you wish to continue (y/n)?" CONT
+read -p "Do you wish to continue (Y/n)?" CONT
 if [ "$CONT" = "y" ]; then
   echo "Updating sources"
   sudo apt update
   #Copy configuration files
-  read -p "Do you want to install the configuration files (y/n)?"
-  if [ "$CONT" = "y" ]; then
-    echo "Copying configuation files and themes"
-    cp -r i3scripts ~/.i3scripts
-    mkdir -p ~/.config/i3
-    cp i3/config ~/.config/i3/
-    mkdir -p ~/.config/polybar
-    cp polybar/config ~/.config/polybar/
-    mkdir -p ~/.oh-my-zsh/themes
-    cp oh-my-zsh/pilonsi.zsh-theme ~/.oh-my-zsh/themes/
-    mkdir ~/.config/cmus
-    cp cmus/pilonsi.theme ~/.config/cmus/
-    cp zsh/zshrc ~/.zshrc
-    cp zsh/zprofile ~/.zprofile
-    cp xresources/.Xresources ~/
-    cp xsession/.xsession ~/
-  else
-    echo "Not installing configuration files. You should install them manually"
-  fi
+  echo "Copying configuation files and themes"
+  cp -r i3scripts ~/.i3scripts
+  mkdir -p ~/.config/i3
+  cp i3/config ~/.config/i3/
+  mkdir -p ~/.config/polybar
+  cp polybar/config ~/.config/polybar/
+  mkdir -p ~/.oh-my-zsh/themes
+  cp oh-my-zsh/pilonsi.zsh-theme ~/.oh-my-zsh/themes/
+  mkdir ~/.config/cmus
+  cp cmus/pilonsi.theme ~/.config/cmus/
+  cp zsh/zshrc ~/.zshrc
+  cp zsh/zprofile ~/.zprofile
+  cp xresources/.Xresources ~/
+  cp xsession/.xsession ~/
   #Download GitHub repositories
   cd ~
   mkdir Repos
